@@ -1,0 +1,19 @@
+// anidacion
+nav{
+    background-color: $colorbg;
+}
+    nav ul{
+        list-style: none;
+        /*display*/
+        display: inline-block;
+        margin-left: $marginleftNav;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: $marginrigthNav;
+    }
+        nav ul li a{
+            color:$colorletrasnav;
+            text-decoration:line;
+            font-family: $mainFont;    
+        }

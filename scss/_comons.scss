@@ -1,0 +1,28 @@
+h1,h2{
+    color:$maincolor;
+    font-family: $mainFont;
+    font-weight: $h1h2Peso;
+}
+/*selector de grupo*/
+h3,h4{
+    color: $maincolor ;
+    font-family:$mainFont;
+    font-weight: $h3h4Peso;
+}
+h1{
+    font-size: $textLg;
+}
+h2{
+    font-size: $textMd;
+}
+h3{
+    font-size: $textMd;
+}
+h4{
+    font-size: $textSm;
+}
+p{
+    color: $colorsecundario;
+    font-size: $textParrafo;
+    line-height: $textHeingtP;
+}
