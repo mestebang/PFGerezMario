@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&display=swap");
+.btn-gral, .btn-rounded {
+  border: none;
+  padding: 5px;
+  display: flexbox;
+  justify-content: center;
+  align-items: end;
+  color: black;
+  background: linear-gradient(to top, rgb(91, 72, 46), rgb(71, 25, 25));
+}
+
+.btn-rounded {
+  border-radius: 10px;
+  background: deepskyblue;
+}
+
 h1, h2 {
   color: rgb(48, 80, 80);
   font-family: "Oswald", sans-serif;
@@ -29,9 +44,45 @@ h4 {
 }
 
 p {
-  color: rgb(138, 111, 84);
+  color: rgb(38, 36, 34);
   font-size: 1.2em;
   line-height: 1.3em;
+}
+
+.bg-pattern {
+  background-image: url(../img/backgroud2.jpg);
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.container {
+  height: auto;
+  background-color: aliceblue;
+  overflow-y: auto;
+  border: dotted 2px cornflowerblue;
+}
+
+footer svg {
+  fill: rgb(91, 72, 46);
+  margin-right: 0px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+header section p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  color: rgb(91, 72, 46);
+  font-family: "Oswald", sans-serif;
+}
+
+main section p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  color: black;
+  font-family: "Oswald", sans-serif;
 }
 
 nav {

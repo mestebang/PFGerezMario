@@ -26,3 +26,41 @@ p{
     font-size: $textParrafo;
     line-height: $textHeingtP;
 }
+.bg-pattern{
+    background-image: url(../img/backgroud2.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+.container{
+    
+    height: auto;
+    background-color: aliceblue;
+    
+    overflow-y: auto;
+    border: dotted 2px cornflowerblue;
+    }
+footer svg{
+    fill: rgb(91, 72, 46);
+   margin-right: 0px;
+}
+footer a{
+    text-decoration: none;
+}
+
+header{
+    section{
+        p{
+            @include textos(1.2em, 1.6em, rgb(91, 72, 46))
+        }
+    
+            }
+    }
+
+main{
+    section{
+        p{
+            @include textos(1.2em, 1.6em, black)
+        }
+    }
+}
+    

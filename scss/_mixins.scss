@@ -1,0 +1,27 @@
+//extends
+.btn-gral{
+   border: none;
+   padding: 5px;
+   display:flexbox;
+   justify-content: center;
+   align-items:end;
+   color:black; 
+   background: linear-gradient(to top,rgb(91, 72, 46), rgb(71, 25, 25) );
+}
+
+.btn-rounded{
+    @extend .btn-gral;
+    border-radius: 10px;
+    background:deepskyblue;
+}
+
+//mixins
+@mixin textos ($size, $line, $color){
+    font-size: $size; //variable local
+    line-height: $line; //variable local
+    color: $color; //variable local
+    font-family: $mainFont; //variable global
+}
+//p{
+// @include textos(1.2em, 1.6em, red)    
+//}
