@@ -1,0 +1,29 @@
+@media( max-width:320px){
+    body{
+        width: 100vw;
+        background-size: 100vw;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    h2{
+        font-size: 1.7em;
+    }
+
+    h3{
+        font-size: 1.2em;
+    }
+
+    p{
+        font-size: 0.9em;
+    }
+  .container{
+    height: auto;
+    background-color: aliceblue;
+    
+    overflow-y: auto;
+    border: dotted 2px rgb(68, 73, 83);
+  }  
+} 
